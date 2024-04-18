@@ -31,7 +31,6 @@ df1 = load_data(selected_file)
 create_data = {"Order ID": "text",
                 "Product": "multiselect",
                 "Purchase Address": "text",
-               "Quantity Ordered": "text",
                }
 
 all_widgets = sp.create_widgets(df1, create_data)

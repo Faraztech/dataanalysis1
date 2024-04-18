@@ -10,12 +10,6 @@ st.title("Sales Data Analysis")
 st.header('By Faraz Younus | M.S. Stats & Data Science', divider='gray')
 st.markdown("### Use the Sidebar to Filter Data")    
 
-
-import os
-import streamlit as st
-import pandas as pd
-import streamlit_pandas as sp
-
 @st.cache
 def load_data(file_path):
     df = pd.read_csv(file_path)

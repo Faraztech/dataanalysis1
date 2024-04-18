@@ -36,7 +36,7 @@ create_data = {"Order ID": "text",
 
 all_widgets = sp.create_widgets(df, create_data)
 
-df = sp.filter_df(df, all_widgets)
+df = sp.filter_df(df1, all_widgets)
 st.title("Streamlit AutoPandas")
 st.header("Original DataFrame")
 st.write(df1)
